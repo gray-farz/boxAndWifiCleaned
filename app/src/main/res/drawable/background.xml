@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+<!--    <solid android:color="@color/colorBackgroundshape"/>-->
+
+    <gradient android:angle="0"
+
+        android:startColor="@color/teal_200"
+        android:endColor="#08857E"
+
+        />
+    <corners android:bottomLeftRadius="18dp"
+        android:bottomRightRadius="18dp"
+        />
+
+</shape>
+
+<!--    android:startColor="#00bfa5"-->
+<!--    android:endColor="#017C6B"-->

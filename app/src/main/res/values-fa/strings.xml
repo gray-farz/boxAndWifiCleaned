@@ -1,0 +1,17 @@
+
+<resources>
+    <string name="app_name">شرکت تست</string>
+    <string name="setting">تنظیمات</string>
+    <string name="update">آپدیت</string>
+    <string name="datetime">تاریخ و ساعت</string>
+    <string name="txtsetting">تنظیمات متن</string>
+    <string name="help">راهنما</string>
+    <string name="log">مدیریت فایل ها</string>
+    <string name="resetArduino">راه اندازی مجدد</string>
+    <string name="radioCodeStr">کد رادیویی</string>
+    <string name="updateCode">اپدیت کد</string>
+    <string name="backgroundcolor">رنگ زمینه</string>
+    <string name="save">ذخیره</string>
+
+    <string name="connectingStr">درحال اتصال...</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    >
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:elevation="5dp"
+        app:cardCornerRadius="11dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/butBackgroundColor"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+
+                    android:background="@drawable/color_rectangle"
+
+                    android:text="@string/backgroundcolor"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/imgGif"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edtTextLAYOUT"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtText"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="Enter Text here" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/saveTEXTsetting"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/butstates"
+                android:text="@string/save"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
