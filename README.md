@@ -4,4 +4,4 @@ this android app can change current animation,send text,set and get date and tim
 furthermore viewing and changing all files on sd card attached to central controller is possible
 this android application can update wifi module code to which is connected.
 
-![Screenshot Dark](screen3.jpg)
+![Screenshot Dark](screen3.jpg) ![Screenshot Dark](wifi.jpg)
